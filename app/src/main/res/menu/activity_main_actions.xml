@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sky"
+        android:icon="@drawable/ic_cloud_black_24dp"
+        android:title="On the sky"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_ground"
+        android:title="On the ground"/>
+
+    <item
+        android:id="@+id/action_water"
+        android:title="Under the water"/>
+</menu>
